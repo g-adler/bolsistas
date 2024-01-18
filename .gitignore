@@ -2,14 +2,16 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+backend/.mvn/
 
 ### IntelliJ IDEA ###
-bolsistas/.idea/modules.xml
-bolsistas/.idea/jarRepositories.xml
-bolsistas/.idea/compiler.xml
-bolsistas/.idea/libraries/
-bolsistas/.idea/misc.xml
-bolsistas/.idea/vcs.xml
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/vcs.xml
+.idea/
 *.iws
 *.iml
 *.ipr
