@@ -1,5 +1,8 @@
 package org.example.backend.service;
 
-public class BolsistaService {
+import org.example.backend.model.BolsistaEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BolsistaService extends JpaRepository<BolsistaEntity, String> {
 
 }
