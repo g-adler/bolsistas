@@ -1,5 +1,6 @@
 package org.example.backend.model;
 
+import javax.annotation.Generated;
 import javax.persistence.*;
 import java.util.Date;
 
@@ -9,6 +10,9 @@ public class BolsistaEntity  {
 
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long Id;
+
     @Column(name = "numeroId")
     private String numeroIdentificador;
 
